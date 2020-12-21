@@ -21,7 +21,7 @@ public class DmdPhoneMain {
 		dmbCellPhone.sendVoice("예 반갑습니다.");
 		dmbCellPhone.hangUp();
 		
-//		자식 클래스인 DmbCellPhone 자체 멤버 메서드
+//		자식 클래스인 DmbCellPhone 자체 멤버 메서
 		dmbCellPhone.turnOnDmb();
 		dmbCellPhone.changeChannelDmb(12);
 		dmbCellPhone.turnOffDmb();
