@@ -63,6 +63,7 @@ public class Television {
 	void volumeUp() {
 		volume ++;
 		if (volume > maxVolume) {
+			volume = minVolume;
 			System.out.println("최대 볼륨을 벗어났습니다. 다시 설정해주세요");
 			
 		}
@@ -76,6 +77,7 @@ public class Television {
 	void volumeDown() {
 		volume--;
 		if (volume > maxVolume) {
+			volume = minVolume;
 			System.out.println("최대 볼륨을 벗어났습니다. 다시 설정해주세요");
 			
 		}
