@@ -14,7 +14,7 @@ public class DriverMain {
 		driver.drive(taxi);
 		driver.drive(v);
 		
-		bus.run();
+	
 	}
 
 }
