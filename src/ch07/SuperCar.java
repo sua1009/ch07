@@ -8,8 +8,8 @@ public class SuperCar extends Car {
 	}
 	
 //	Car 클래스의 stop() 메서드가 final을 사용하였기 때문에 Overriding이 되지 않음 
-	@Override 
-	public void stop() {
-		
-	}
+//	@Override 
+//	public void stop() {
+//		
+//	}
 }
